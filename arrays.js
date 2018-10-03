@@ -5,5 +5,6 @@ var array = [1]
 var element = "foo"
 
 function addElementToBeginningOfArray(array, element) {
-  return (aray + element)
+  return array.push("element")
 }
+
