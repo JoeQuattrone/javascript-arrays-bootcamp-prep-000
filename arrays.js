@@ -15,4 +15,4 @@ function addElementToBeginningOfArray() {
 function destructivelyAddElementToBeginningOfArray() {
    return [element, ...array]
 }
- var array = [...array, element]
+  array = [element, ...array]
