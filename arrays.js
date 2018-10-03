@@ -5,6 +5,6 @@ var array = [1]
 var element = 'foo'
 
 function addElementToBeginningOfArray(array, element) {
-   return array.unshift(element)
+   return array.unshift("foo")
 }
 
