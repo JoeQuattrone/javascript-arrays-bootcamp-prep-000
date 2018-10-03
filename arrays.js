@@ -16,3 +16,4 @@ function destructivelyAddElementToBeginningOfArray() {
    return [element, ...array]
 }
   array = [element, ...array]
+const moreArray = [element, ...array]
